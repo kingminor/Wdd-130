@@ -7,17 +7,16 @@ header {
 
 
 #logo-img{
-    display: inline;
+    display: inline-block;
     width: 100px;
 }
 
 nav {
     display: inline-block;
-    text-align: right;
     font-family: "Anonymous Pro";
     font-size: larger;
     color: #000;
-    margin: 10px;
+    margin: 0 auto;
 }
 
 h1 {
