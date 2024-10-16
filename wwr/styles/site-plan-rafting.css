@@ -6,10 +6,10 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #4C6948   ;
-  --secondary-color: #93684D ;
-  --accent1-color: #4B4869;
-  --accent2-color: #B9D6F2;
+  --primary-color: #4C6948   ; 
+  --secondary-color: #d39067 ; 
+  --accent1-color: #4B4869; /* Forground Color */
+  --accent2-color: #B9D6F2; /* background Color */
 
   /* change the values below to your chosen font(s) */
   --heading-font:  "Orbitron", "IM Fell French Canon";
@@ -22,7 +22,7 @@ Fonts are separated by a & */
   --paragraph-color-on-color: #B9D6F2; /* paragraph text on a colored background */ 
   --paragraph-background-color: #4B4869  ;
   --nav-link-color: #4B4869;
-  --nav-background-color: #93684D;
+  --nav-background-color: #d39067;
   --nav-hover-link-color: #B9D6F2;
   --nav-hover-background-color: #4B4869;
 }
