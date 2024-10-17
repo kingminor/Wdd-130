@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(126, 126, 126);
+    margin: 0 0;
+}
+
+#hero {
+    width: 100%;
+}
+
+.circle_images {
+    text-align: center;
+}
+
+.circle_images img{
+    margin: 3% 4%;
+    display: inline;
+    width: 21%;
+    text-align: center;
+    border: 1em solid #363636;
+    border-radius: 100%;
+}
