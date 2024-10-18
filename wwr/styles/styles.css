@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Orbitron:wght@400..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rock+Salt&display=swap');
 
 body {
+    font-family: "Quicksand", 'Times New Roman', 'Arial ';
     background-color: #B9D6F2;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -12,6 +15,8 @@ header {
 footer {
     background-color: #d39067;
     color: #000000;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -32,6 +37,10 @@ footer p a:hover {
 
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -41,6 +50,7 @@ nav a{
     text-align: center;
     color: #000000;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -50,6 +60,13 @@ nav a:hover{
 
 .home-title {
     color: #000000;
+    font-family: "Rock Salt", 'Times New Roman ', 'Arial ';
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0;
 }
 
 h4 {
@@ -71,6 +88,9 @@ h4 {
 main section{
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 
 #background {
     height: 725px;
@@ -78,13 +98,17 @@ main section{
 }
 
 .book {
-    background-color: #B9D6F2;
+    background-color: #d39067;
     color: #000000;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
-    background-color: #B9D6F2;
+    background-color: #d39067;
     color: #000000;
 }
 
@@ -92,6 +116,10 @@ main section{
     background-color: #B9D6F2;
     color: #000000;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover {
@@ -101,22 +129,32 @@ main section{
 
 .msg {
     background-color: #d39067;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #000000;
+    font-family: "Rock Salt", 'Times New Roman ', 'Arial ';
 }
 
 .msg p {
     color: #000000;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -125,4 +163,12 @@ main section{
 
 .mountain {
     margin: 100px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+.river-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
