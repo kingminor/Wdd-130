@@ -4,6 +4,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Anonymos Pro', Arial;
+    background-color: #103436;
 }
 
 header {
@@ -12,4 +13,69 @@ header {
 
 #logo-image {
     width: 150px;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.hero-text {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    font-family: 'Orbitron';
+    color: #B1EAE4;
+    font-size: 3.5em;
+}
+
+.hero-img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+}
+
+main {
+    
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    border: none;
+    border-radius: 25%;
+}
+
+.timeline-card, .videos-card, .characters-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.timeline-card img, .videos-card img, .characters-card img{
+    width: 350px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.timeline-card h4, .videos-card h4, .characters-card h4{
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+#lower-hero {
+    width: 100%;
 }
