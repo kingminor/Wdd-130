@@ -28,12 +28,14 @@ header {
     font-family: 'Orbitron';
     color: #B1EAE4;
     font-size: 3.5em;
+    z-index: 1;
 }
 
 .hero-img {
     grid-column: 1/2;
     grid-row: 1/2;
     width: 100%;
+    filter: blur(4px);
 }
 
 main {
@@ -45,8 +47,7 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     justify-items: center;
-    border: none;
-    border-radius: 25%;
+    margin: 25px;
 }
 
 .timeline-card, .videos-card, .characters-card {
@@ -56,9 +57,12 @@ main {
 }
 
 .timeline-card img, .videos-card img, .characters-card img{
-    width: 350px;
+    width: 70%;
     grid-column: 1/2;
     grid-row: 1/3;
+    border: 1rem solid #0D1617;
+    border-radius: 5%;
+    margin: 0 auto;
 }
 
 .timeline-card h4, .videos-card h4, .characters-card h4{
@@ -66,8 +70,31 @@ main {
     grid-column: 1/2;
     grid-row: 1/2;
     z-index: 1;
+    color: #B1EAE4;
+    font-family: 'Orbitron', 'Times New Roman';
+    font-size: 1em;
 }
 
+#important-1, #important-2 {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#important-1 h3 {
+    grid-column: 2/9;
+    grid-row: 1/2;
+}
+
+#important-1 p {
+    grid-column: 3/9;
+    grid-row: 2/4;
+}
+
+#important-1 button {
+    grid-column: 7/9;
+    grid-row: 4/5;
+}
 
 
 
