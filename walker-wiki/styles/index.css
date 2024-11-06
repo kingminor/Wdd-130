@@ -69,6 +69,11 @@ main {
     margin: 0 auto;
 }
 
+/* .timeline-card img:hover, .videos-card img:hover, .characters-card img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+} */
+
 .timeline-card h4, .videos-card h4, .characters-card h4{
     text-align: center;
     grid-column: 1/2;
@@ -116,6 +121,7 @@ main {
     grid-column: 3/8;
     grid-row: 2/3;
     color: #B1EAE4;
+    font-size: 1.1em;
 }
 
 #important-1 button {
@@ -129,7 +135,7 @@ main {
 #important-2 h3 {
     grid-column: 2/7;
     grid-row: 1/2;
-    color: #B1EAE4;
+    color: #fff;
     font-size: xx-large;
     font-family: 'Orbitron', 'Times New Roman';
 }
@@ -138,6 +144,7 @@ main {
     grid-column: 3/8;
     grid-row: 2/3;
     color: #B1EAE4;
+    font-size: 1.1em;
 }
 
 #important-2 button {
