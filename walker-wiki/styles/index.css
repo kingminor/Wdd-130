@@ -60,7 +60,6 @@ nav a:hover{
     grid-row: 1/2;
     width: 95%;
     margin: 0 auto;
-    border-radius: 5%;
 }
 
 #cards {
@@ -83,7 +82,6 @@ nav a:hover{
     grid-column: 1/2;
     grid-row: 1/3;
     border: 1rem solid #0D1617;
-    border-radius: 5%;
     margin: 0 auto;
 }
 
@@ -124,7 +122,6 @@ nav a:hover{
     grid-template-rows: 1fr 1fr 1fr;
     margin: 20px;
     border: 1em none;
-    border-radius: 5%;
 }
 
 #important-1 h3 {
@@ -262,12 +259,12 @@ footer a:hover {
 
     .timeline-card, .videos-card, .characters-card {
         margin: 0 auto;
-        width: 66%;
+        width: 80%;
         margin-top: 30px;
     }
 
     .timeline-card h4, .videos-card h4, .characters-card h4 {
-        font-size: xx-large;
+        font-size: x-large;
     }
 
     #important-section {
