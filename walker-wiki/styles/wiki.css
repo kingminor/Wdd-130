@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Orbitron:wght@400..900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anonymos Pro', Arial;
+    background-color: #103436;
+    max-width: 100%;
+}
+
+header {
+    background-color: #0D1617;
+    display: grid;
+    grid-template-columns: 150px auto 200px 200px 200px 100px;
+}
+
+#logo-image {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    grid-column: 3/6;
+}
+
+nav a{
+    text-align: center;
+    color: #B1EAE4;
+    text-decoration: none;
+    margin: auto;
+    font-size: x-large;
+    padding: 50px;
+    font-family: "Orbitron", 'Times New Roman';
+}
+
+nav a:hover{
+    background-color: #B1EAE4;
+    color: #000000;
+}
+
+#info-and-summary {
+    display: grid;
+    grid-template-columns: 33% 67%;
+    grid-gap: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+#info-section {
+    background-color: #0D1617;
+    padding: 20px;
+    
+}
+
+#info-section img {
+    width: 95%;
+    display: block;
+    justify-self: center;
+    border: 1em #000000 solid;
+}
+
+#info-section h3 {
+    color: #fff;
+    font-size: x-large;
+    font-family: "Orbitron", 'Times New Roman';
+}
+
+#info-section ul {
+    color: #B1EAE4;
+    font-size: large;
+}
+
+#summary {
+    background-color: #0D1617;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+#summary h1 {
+    color: #fff;
+    font-size: xx-large;
+    font-family: "Orbitron", 'Times New Roman';
+}
+
+#summary p{
+    margin-left: 50px;
+    color: #B1EAE4;
+    font-size: large;
+}
