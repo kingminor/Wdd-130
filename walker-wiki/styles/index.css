@@ -5,6 +5,7 @@ body {
     margin: 0;
     font-family: 'Anonymos Pro', Arial;
     background-color: #103436;
+    max-width: 100%;
 }
 
 header {
@@ -63,10 +64,6 @@ nav a:hover{
     border-radius: 5%;
 }
 
-main {
-    
-}
-
 #cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -91,10 +88,9 @@ main {
     margin: 0 auto;
 }
 
-/* .timeline-card img:hover, .videos-card img:hover, .characters-card img:hover {
-    opacity: .6;
+.timeline-card:hover, .videos-card:hover, .characters-card:hover {
     transform: scale(1.1);
-} */
+}
 
 .timeline-card h4, .videos-card h4, .characters-card h4{
     text-align: center;
