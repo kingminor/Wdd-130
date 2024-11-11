@@ -63,10 +63,6 @@ nav a:hover{
     border-radius: 5%;
 }
 
-main {
-    
-}
-
 #cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -230,4 +226,63 @@ footer a {
 footer a:hover {
     background-color: #B1EAE4;
     color: #000;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        display: block;
+        justify-content: center;
+    }
+
+    #logo-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 5px;
+        padding: 20px;
+    }
+
+    .hero-text {
+        font-size: xx-large;
+        align-content: center;
+    }
+
+    #cards {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .timeline-card, .videos-card, .characters-card {
+        margin: 0 auto;
+        width: 66%;
+        margin-top: 30px;
+    }
+
+    .timeline-card h4, .videos-card h4, .characters-card h4 {
+        font-size: xx-large;
+    }
+
+    #important-section {
+        display: block;
+    }
+
+    #lower-video {
+        width: 80%;
+        height: 400px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
 }
