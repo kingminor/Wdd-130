@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Orbitron:wght@400..900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anonymos Pro', Arial;
+    background-color: #103436;
+    max-width: 100%;
+}
+
+header {
+    background-color: #0D1617;
+    display: grid;
+    grid-template-columns: 150px auto 200px 200px 200px 100px;
+}
+
+#logo-image {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    grid-column: 3/6;
+}
+
+nav a{
+    text-align: center;
+    color: #B1EAE4;
+    text-decoration: none;
+    margin: auto;
+    font-size: x-large;
+    padding: 50px;
+    font-family: "Orbitron", 'Times New Roman';
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: #B1EAE4;
+    color: #000000;
+}
+
+#hero {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+}
+
+#hero h1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    font-family: 'Orbitron';
+    color: #B1EAE4;
+    font-size: 3.5em;
+    z-index: 1;
+}
+
+#hero img {
+    border: 1em solid #0D1617;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.section-header {
+    background-color: #0D1617;
+    color: #fff;
+    font-size: xx-large;
+    font-family: "Orbitron", 'Times New Roman';
+    text-align: center;
+    padding: 30px 100px 30px 100px;
+}
+
+.card-grid {
+    margin: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    color: #B1EAE4;
+}
+
+.card a img {
+    width: 100%;
+    grid-row: 1/3;
+    grid-column: 1/2;
+}
+
+.card h2 {
+    padding-top: 40%;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    font-size: xx-large;
+}
+
+
+
+
+footer {
+    margin-top: 50px;
+    background-color: #000;
+    padding: 100px;
+}
+
+footer p {
+    color: #B1EAE4;
+    grid-row: 2/3;
+    display: inline;
+    padding-right: 50px;
+    font-size: x-large;
+}
+
+footer a {
+    display: inline;
+    padding: 50px;
+    color: #B1EAE4;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: #B1EAE4;
+    color: #000;
+}
