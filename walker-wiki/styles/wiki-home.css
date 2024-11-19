@@ -90,10 +90,18 @@ nav a:hover{
     color: #B1EAE4;
 }
 
-.card a img {
+.card a{
     width: 100%;
     grid-row: 1/3;
     grid-column: 1/2;
+}
+
+.card a img {
+    width: 100%;
+}
+
+.card a img:hover {
+    transform: scale(1.1);
 }
 
 .card h2 {
