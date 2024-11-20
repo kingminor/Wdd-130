@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rock+Salt&display=swap');
+
+
+body {
+    /* Center the form on the page */
+    font-family: "Quicksand", 'Times New Roman', 'Arial ';
+    background-color: #B9D6F2;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  #content {
+    max-width: 1600px;
+    margin: 0 auto;
+}  
+
+header {
+    background-color: #4C6948;
+    display: grid;
+    grid-template-columns: 150px auto;
+    margin-bottom: 200px;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color: #B9D6F2;
+    color: #000000;
+}
+  
+form {
+    display: inline-block;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: #fff;
+}
+  
+p + p {
+    margin-top: 1em;
+}
+  
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    min-width: 90px;
+    text-align: right;
+}
+  
+input,
+textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, text areas have a monospace font */
+    font: 1em sans-serif;
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+    /* Match form field borders */
+    border: 1px solid #999;
+}
+  
+input:focus,
+textarea:focus {
+    /* Set the outline width and style */
+    outline-style: solid;
+    /* To give a little highlight on active elements */
+    outline-color: #000;
+}
+  
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+    /* Provide space to type some text */
+    height: 5em;
+}
+  
+.button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+}
+  
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+}
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+footer {
+    background-color: #d39067;
+    color: #000000;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #000000;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+
+}
+
+footer .social img {
+    padding-top: 15px;
+}
