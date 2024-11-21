@@ -128,7 +128,9 @@ nav a:hover{
     border: 0.5em #B1EAE4 solid;
 }
 
-
+a {
+    color: #fff;
+}
 
 
 
