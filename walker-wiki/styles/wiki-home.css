@@ -140,3 +140,39 @@ footer a:hover {
     background-color: #B1EAE4;
     color: #000;
 }
+
+@media screen and (max-width: 900px) {
+    header {
+        display: block;
+        justify-content: center;
+    }
+
+    #logo-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 5px;
+        padding: 20px;
+    }
+
+    .card-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+}
