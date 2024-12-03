@@ -101,7 +101,7 @@ nav a:hover{
 }
 
 #timeline img {
-    margin-top: 20px;
+    margin-top: 50px;
     width: 100%;
     border: solid #B1EAE4 8px;
     box-sizing: border-box;
@@ -127,6 +127,20 @@ nav a:hover{
     border: solid #B1EAE4 8px;
 }
 
+.container p {
+    font-family: 'Anonymos Pro', Arial;
+    color: #B1EAE4;
+    text-indent: 2em;
+}
+
+.container a {
+    color:#fff;
+}
+
+.container a:visited {
+    color: #B1EAE4;
+}
+
 .left {
     left: 0;
 }
@@ -139,6 +153,15 @@ h2 {
     color: #fff;
     font-family: "Orbitron", 'Times New Roman';
 }
+
+h3 {
+    color: #fff;
+    margin-left: 40px;
+    font-family: "Orbitron", 'Times New Roman';
+
+}
+
+
 
 .videos-covered-list{
     color: #B1EAE4;
