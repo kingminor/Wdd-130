@@ -6,6 +6,7 @@ body {
     font-family: 'Anonymos Pro', Arial;
     background-color: #103436;
     max-width: 100%;
+    box-sizing: border-box;
 }
 
 header {
@@ -70,6 +71,81 @@ nav a:hover{
     font-size: large;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.timeline-intro ul {
+    color: #B1EAE4;
+    font-size: large;
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style-position: inside;
+}
+
+#timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#timeline::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-color: #B1EAE4;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50px;
+    z-index: -1;
+}
+
+#timeline img {
+    margin-top: 20px;
+    width: 100%;
+    border: solid #B1EAE4 8px;
+    box-sizing: border-box;
+}
+
+.center {
+    margin-top: 50px;
+    padding: 10px 40px;
+    position: relative;
+    background-color: #0D1617;
+    text-align: center;
+    border: solid #B1EAE4 8px;
+    color: #B1EAE4;
+    font-size: large;
+}
+
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: #0D1617;
+    width: 50%;
+    margin-top: 50px;
+    border: solid #B1EAE4 8px;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 42.05%;
+}
+
+h2 {
+    color: #fff;
+    font-family: "Orbitron", 'Times New Roman';
+}
+
+.videos-covered-list{
+    color: #B1EAE4;
+    font-size: large;
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style-position: inside;
 }
 
 
