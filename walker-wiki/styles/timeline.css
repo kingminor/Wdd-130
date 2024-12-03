@@ -100,8 +100,11 @@ nav a:hover{
     z-index: -1;
 }
 
-#timeline img {
+.section-header-image {
     margin-top: 50px;
+}
+
+#timeline img {
     width: 100%;
     border: solid #B1EAE4 8px;
     box-sizing: border-box;
@@ -139,6 +142,11 @@ nav a:hover{
 
 .container a:visited {
     color: #B1EAE4;
+}
+
+.embeded-img {
+    max-width: 100%;
+    margin: 0pxs;
 }
 
 .left {
