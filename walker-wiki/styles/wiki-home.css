@@ -109,6 +109,7 @@ nav a:hover{
     grid-row: 2/3;
     grid-column: 1/2;
     font-size: xx-large;
+    z-index: 1;
 }
 
 
