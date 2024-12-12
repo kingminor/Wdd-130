@@ -124,7 +124,8 @@ nav a:hover{
 
 .image-holder img {
     display: inline;
-    height: 400px;
+    max-height: 400px;
+    max-width: 100%;
     border: 0.5em #B1EAE4 solid;
 }
 
@@ -186,7 +187,7 @@ footer a:hover {
     }
 
     .image-holder img {
-        max-width: 400px;
+        max-width: 100%;
         height: 100%;
     }
 
