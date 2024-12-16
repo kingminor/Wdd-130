@@ -9,9 +9,11 @@
 </head>
 <body>
     <header>
-        <div id="logo-container">
-            <img id="logo-image" src="img/The-Unity-Project-logo-removed-BG.png" alt="logo">
-        </div>
+        <a href="index.html">
+            <div id="logo-container">
+                <img id="logo-image" src="img/The-Unity-Project-logo-removed-BG.png" alt="logo">
+            </div>
+        </a>
         <nav>
             <a class="nav-link" href="#">Home</a>
             <a class="nav-link" href="timeline.html">Timeline</a>
@@ -24,18 +26,26 @@
     </div>
     <main>
         <div id="cards">
-            <div class="timeline-card">
-                <h4>TIMELINE</h4>
-                <img src="img/timelines-optimized.jpg" alt="Timeline IMG">
-            </div>
-            <div class="videos-card">
-                <h4>VIDEOS</h4>
-                <img src="img/videos-optimized.jpg" alt="Videos Image">
-            </div>
-            <div class="characters-card">
-                <h4>CHARACTRERS</h4>
-                <img src="img/characters-omptimized.jpg" alt="Characters Image">
-            </div>
+            <a class="card-link" href="timeline.html">
+                <div class="timeline-card">
+                    <h4>TIMELINE</h4>
+                    <img src="img/timelines-optimized.jpg" alt="Timeline IMG">
+                </div>
+            </a>
+
+            <a class="card-link" href="videos.html">
+                <div class="videos-card">
+                    <h4>VIDEOS</h4>
+                    <img src="img/videos-optimized.jpg" alt="Videos Image">
+                </div>
+            </a>
+
+            <a class="card-link" href="wiki-home.html#characters">
+                <div class="characters-card">
+                    <h4>CHARACTRERS</h4>
+                    <img src="img/characters-omptimized.jpg" alt="Characters Image">
+                </div>
+            </a>
         </div>
         <div id="important-section">
             <div id="important-1">
@@ -43,12 +53,12 @@
                 <p>The purpose of this site is to provide a good source for alan walker lore. 
                     The primary feature compaired to other wikis is a clear timeline. This timeline is a culmination of various different sources
                     to make the best timeline ever</p>
-                <button formaction="timeline.html" type="button">Check it Out!</button>
-            </div>
+                <button onclick="location.href='timeline.html'" type="button">Check it Out!</button>
+                </div>
             <div id="important-2">
                 <h3>The Wiki Part</h3>
                 <p>We have a comprehensive wiki with information on almost all aspects of the Alan Walker Cinematic Universe.</p>
-                <button type="button">Check It Out!</button> 
+                <button onclick="location.href='wiki-home.html'" type="button">Check it Out!</button>
             </div>
         </div>
         <iframe id="lower-video" width="1186" height="667" src="https://www.youtube.com/embed/ypF8UrBDSRk" title="WOW Masterclass with Kristian Berg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        

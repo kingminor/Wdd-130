@@ -208,3 +208,53 @@ footer a:hover {
     background-color: #B1EAE4;
     color: #000;
 }
+
+@media screen and (max-width: 900px) {
+    header {
+        display: block;
+        justify-content: center;
+    }
+
+    #logo-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 5px;
+        padding: 20px;
+    }
+
+    #timeline {
+        justify-items: center;
+    }
+
+    .container {
+        margin-top: 50px;
+        padding: 10px 40px;
+        position: relative;
+        background-color: #0D1617;
+        border: solid #B1EAE4 8px;
+        color: #B1EAE4;
+        width: 75%;
+        justify-content: center;
+    }
+
+    .right {
+        left: 0;
+    }
+
+
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+}

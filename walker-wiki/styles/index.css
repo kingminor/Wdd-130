@@ -78,6 +78,7 @@ nav a:hover{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+    overflow: hidden;
 }
 
 .timeline-card img, .videos-card img, .characters-card img{
@@ -90,6 +91,7 @@ nav a:hover{
 
 .timeline-card:hover, .videos-card:hover, .characters-card:hover {
     transform: scale(1.1);
+    overflow: hidden;
 }
 
 .timeline-card h4, .videos-card h4, .characters-card h4{
@@ -101,6 +103,17 @@ nav a:hover{
     font-family: 'Orbitron', 'Times New Roman';
     font-size: 1em;
 }
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.card-link:hover {
+    cursor: pointer; 
+}
+
 
 #important-section {
     display: grid;

@@ -9,9 +9,11 @@
 </head>
 <body>
     <header>
-        <div id="logo-container">
-            <img id="logo-image" src="img/The-Unity-Project-logo-removed-BG.png" alt="logo">
-        </div>
+        <a href="index.html">
+            <div id="logo-container">
+                <img id="logo-image" src="img/The-Unity-Project-logo-removed-BG.png" alt="logo">
+            </div>
+        </a>
         <nav>
             <a class="nav-link" href="index.html">Home</a>
             <a class="nav-link" href="timeline.html">Timeline</a>
@@ -23,46 +25,49 @@
             <img src="img/wk-excavations.jpg" alt="Hero Image">
             <h1>The Archives/Wiki</h1>
         </div>
-        <h2 class="section-header">Characters</h2>
-        <div class="card-grid">
-            <div class="card">
-                <h2>Walker #28300</h2>
-                <a href="wk28300.html">
-                    <img src="img/wk28300.jpg" alt="Walker #28300">
+        <section id="characters"> <!-- Only exists so that I can scroll to this section -->
+            <h2 class="section-header">Characters</h2>
+            <div class="card-grid">
+                <a href="wk28300.html" class="card-link">
+                    <div class="card">
+                            <img src="img/wk28300.jpg" alt="Walker #28300">
+                            <h2>Walker #28300</h2>
+                    </div>
+                </a>
+                <a class="card-link" href="red-nexus.html">
+                    <div class="card">
+                            <img src="img/red-nexus-card.jpg" alt="Red Nexus Headquarters">
+                            <h2>Red-Nexus</h2>
+                    </div>
                 </a>
             </div>
-            <div class="card">
-                <h2>Red-Nexus</h2>
-                <a href="red-nexus.html">
-                    <img src="img/red-nexus-card.jpg" alt="Red Nexus Headquarters">
-                </a>
-            </div>
-        </div>
+            
+        </section>
 
         <h2 class="section-header">Events</h2>
         <div class="card-grid">
-            <div class="card">
-                <a href="events-eleanor.html">
+            <a class="card-link" href="events-eleanor.html">
+                <div class="card">
                     <img src="img/events-eleanor-card.jpg" alt="Solar Storm : Eleanor">
-                </a>
-                <h2>Solar Storm : Eleanor</h2>
-            </div>
+                    <h2>Solar Storm : Eleanor</h2>
+                </div>
+            </a>
         </div>
 
         <h2 class="section-header">Items</h2>
         <div class="card-grid">
-            <div class="card">
-                <h2>RX-8</h2>
-                <a href="rx-8.html">
+            <a href="rx-8.html">
+                <div class="card">
+                    <h2>RX-8</h2>
                     <img src="img/4b8824ae4bbcc496b429ad9badfa94fc.jpg" alt="RX-8">
-                </a>
-            </div>
-            <div class="card">
-                <h2>AVI-8</h2>
-                <a>
+                </div>
+            </a>
+            <a class="card-link" href="avi-8.html">
+                <div class="card">
+                    <h2>AVI-8</h2>
                     <img src="img/avi-8.jpg" alt="AVI-8">
-                </a>
-            </div>
+                </div>
+            </a>
         </div>
     </main>
     <footer>
